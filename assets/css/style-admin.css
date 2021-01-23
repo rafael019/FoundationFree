@@ -1,0 +1,47 @@
+.custom-form-fields-rbdev{
+	display: block;
+	width: 100%;
+	padding-bottom: 25px;
+	padding-top: 25px;
+}
+
+.custom-form-fields-rbdev + .custom-form-fields-rbdev{
+	border-top: 1px solid #eee;
+	padding-top: 15px;
+}
+
+.custom-form-fields-rbdev label{
+	font-weight: bold;
+	font-size: 16px;
+	display: block;
+	margin-bottom: 15px;
+}
+
+
+.custom-form-fields-rbdev input[type="input"],
+.custom-form-fields-rbdev input[type="text"],
+.custom-form-fields-rbdev input[type="email"],
+.custom-form-fields-rbdev select,
+.custom-form-fields-rbdev textarea{
+	width: 100%;
+	height: 35px;
+	border-radius: 5px;
+	border: 1px solid #eee;
+}
+
+.custom-form-fields-rbdev textarea{
+	height: 150px;
+}
+
+.custom-form-fields-rbdev input[type="checkbox"],
+.custom-form-fields-rbdev input[type="radio"]{
+	display:inline-block;
+	margin-bottom: 1px;
+}
+
+.custom-form-fields-rbdev input[type="checkbox"] + label,
+.custom-form-fields-rbdev input[type="radio"] + label{
+	display:inline-block;
+	width: auto;
+	margin-bottom: 5px;
+}

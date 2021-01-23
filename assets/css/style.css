@@ -1,0 +1,71 @@
+/*CSS Gutenberg*/
+
+/*Alinhamentos (full e wide)*/
+.entry-content > *:not( .alignwide ):not( .alignfull ) {
+    max-width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.wp-block-image.alignfull {
+    display: block;
+    text-align: center;
+}
+.wp-block-image.alignwide {
+    max-width: 75%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/*Paletas de cor*/
+.has-principal-background-color {
+    background-color: #1779ba;
+}
+.has-principal-color {
+    color: #1779ba;
+}
+ 
+.has-secundaria-background-color {
+    background-color: #767676;
+}
+.has-secundaria-background-color {
+    color: #767676;
+}
+
+/*Tamanhos de fonte*/
+.has-pequeno-font-size {
+    font-size: 12px;
+}
+.has-medio-font-size {
+    font-size: 16px;
+}
+.has-grande-font-size {
+    font-size: 20px;
+}
+
+/*Aumentar a largura do conteúdo no editor*/
+.wp-block {
+    max-width: 1200px;
+}
+.wp-block[data-align="wide"] {
+    max-width: 1360px;
+}
+.wp-block[data-align="full"] {
+    max-width: none;
+}
+
+
+/*Botão Voltar ao Topo*/
+#back-to-top {
+    border: none;
+    background-color: #555;
+    color:#fff;
+    position: fixed;
+    bottom: 30px;
+    right: 30px;
+    display: none;
+  }
+  
+  #back-to-top:hover{
+    background-color: #1aac46;
+    color:#fff;
+  }

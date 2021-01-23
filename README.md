@@ -1,2 +1,5 @@
-# charity_aid_rb
-Tema Criado para Instituição de Caridade e sem fins lucrativos
+# Theme Foudation Free
+
+Tema Criado paras para ser utilizando na construção de sites para instituições de caridade e sem fins lucrativos.
+
+Projeto em Desenvolvimento
